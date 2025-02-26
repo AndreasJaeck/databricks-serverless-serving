@@ -18,6 +18,7 @@ This guide walks through the steps to wrap a Fortran model with MLflow and deplo
 fortran_mlflow_project/
 ├── simple_model.f90        # Fortran model source
 ├── Makefile                # Build automation
+├── databricks_notebook.py  # Notebook for Databricks build
 ├── wrapper.py              # Python MLflow wrapper
 ├── test_model.py           # Testing script
 └── README.md               # Documentation
